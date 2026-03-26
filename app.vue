@@ -93,7 +93,7 @@
     <!-- Full-width divider image -->
     <div class="full-img-wrap">
       <img
-        src="/session.png"
+        src="/portrait.png"
         alt="Stille und Balance"
         loading="eager"
       />
@@ -150,12 +150,12 @@
     </section>
 
     <!-- Portrait + offer -->
-    <div class="full-img-wrap" style="height: clamp(260px,36vw,420px)">
+    <div class="full-img-wrap">
       <img
-        src="/portrait.png"
+        src="/session.png"
         alt="Praxis"
         loading="eager"
-        style="object-position: center 20%;"
+        style="object-position: center 60%;"
       />
     </div>
 
@@ -213,16 +213,16 @@ const craniosacralConditions = [
   '<strong>Beschwerden nach Unfällen, Operationen &amp; Schleudertrauma</strong>',
   '<strong>Stress, Erschöpfung &amp; Burnout</strong>',
   '<strong>Schlafstörungen &amp; Müdigkeit</strong>',
-  '<strong>Traumatische Erfahrungen</strong>',
+  '<strong>Traumatischen Erfahrungen</strong>',
 ]
 
 const einreibungenConditions = [
   '<strong>Muskelverspannungen</strong>',
-  '<strong>Körperliche und seelische Anspannung</strong>',
-  '<strong>Unregelmässiger Schlaf-Wach-Rhythmus</strong>',
+  '<strong>Körperlichen und seelischen Anspannungen</strong>',
+  '<strong>Unregelmässigem Schlaf-Wach-Rhythmus</strong>',
   '<strong>Erschöpfung &amp; Antriebslosigkeit</strong>',
-  '<strong>Belastende Lebensereignisse, Innere Unruhe &amp; Ängste</strong>',
-  '<strong>Chronische Schmerzen &amp; rheumatische Beschwerden</strong>',
+  '<strong>Belastenden Lebensereignissen &amp; innerer Unruhe &amp; Ängste</strong>',
+  '<strong>Chronischen Schmerzen &amp; rheumatischen Beschwerden</strong>',
   '<strong>Polyneuropathie</strong>',
   '<strong>Wärmebalance &amp; Entspannung</strong>',
 ]
