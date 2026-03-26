@@ -34,9 +34,7 @@
     <!-- Intro band -->
     <div class="intro-band">
       <p>
-        In meiner Praxis begleite ich Menschen in körperlichen und seelischen Belastungssituationen.
-        Die achtsame Begleitung lädt dazu ein, Festgehaltenes zu lösen und den Zugang zu den
-        inneren Kräften zu vertiefen.
+        In meiner Praxis <strong>Berührt im Sein</strong> begleite ich Menschen in körperlichen und seelischen Belastungssituationen. Die achtsame therapeutische Begleitung lädt dazu ein, Festgehaltenes zu lösen, Raum für natürliche Balance zu entfalten und den Zugang zu den inneren Kräften zu vertiefen, um ganzheitliche Stabilität nachhaltig zu festigen.
       </p>
     </div>
 
@@ -67,8 +65,11 @@
             </p>
             <p class="service__body">
               Feine Berührungen lassen einen stillen Raum entstehen, in dem sich die Selbstregulation
-              des Organismus entfalten kann. In dieser Ruhe kann der craniosacrale Rhythmus wieder
-              in seine natürliche Harmonie finden und nachhaltig zu Gesundheit und innerer Stabilität beitragen.
+              des Organismus entfalten kann. Dabei können die innewohnenden Kräfte wirksam werden und zu 
+              nachhaltiger Gesundheit, innerer Stabilität und Ruhe beitragen. 
+              Auf diese Weise kann der Organismus in seine natürliche Balance zurückfinden.
+              Das begleitende Gespräch stärkt die Selbstwahrnehmung, unterstützt den Zugang zu 
+              inneren Ressourcen und bringt Bewusstwerdungsprozesse in Bewegung.
             </p>
           </div>
         </div>
@@ -121,7 +122,8 @@
             <p class="service__body">
               Rhythmisch gestaltete Berührungen mit hochwertigen, ausgewählten Pflanzenölen wirken
               harmonisierend auf die ordnenden Kräfte im Menschen. Die atmenden, rhythmischen
-              Bewegungen unterstützen den Körper in seiner Selbstregulation.
+              Bewegungen unterstützen den Körper in seiner Selbstregulation und ermöglichen, dass die aufbauenden Kräfte wirksam werden.
+              Dabei kann der Organismus zu Wärme, Vitalität und innerem Gleichgewicht finden.
             </p>
             <p class="service__body">
               Die rhythmischen Einreibungen stammen aus der anthroposophischen Pflege und Therapie.
@@ -162,8 +164,8 @@
       <div class="offer-band__inner reveal">
         <h3>Für ein persönliches Gespräch bin ich gerne für Sie da.</h3>
         <p>
-          Behandlungen erfolgen nach individueller Terminvereinbarung. Im Rahmen meiner
-          fortgeschrittenen Ausbildung zur Craniosacraltherapeutin biete ich die Craniosacraltherapie
+          <strong>Behandlungen erfolgen nach individueller Terminvereinbarung.</strong><br>
+          Im Rahmen meiner fortgeschrittenen Ausbildung zur Craniosacraltherapeutin biete ich die Craniosacraltherapie
           derzeit zu einem reduzierten Einführungstarif an.
         </p>
         <a href="mailto:praxis@beruehrtimsein.ch" class="btn-outline">Termin anfragen</a>
@@ -176,14 +178,19 @@
         <div class="contact__grid">
           <div class="contact__col reveal">
             <h4>Adresse</h4>
-            <p>Muchlingerstrasse 38<br>8405 Winterthur</p>
+            <p>
+              <strong>Praxis Berührt im Sein</strong><br>
+              <a href="https://maps.google.com/?q=Muchlingerstrasse+38,+8405+Winterthur" target="_blank" rel="noopener noreferrer">
+                Muchlingerstrasse 38<br>8405 Winterthur
+              </a>
+              Parkplatz direkt vor dem Haus vorhanden.
+            </p>
           </div>
           <div class="contact__col reveal reveal-delay-1">
-            <h4>Öffnungszeiten</h4>
-            <p>Montag – Freitag<br>08:00 – 18:00 Uhr</p>
-          </div>
-          <div class="contact__col reveal reveal-delay-2">
             <h4>Kontakt</h4>
+            <p>
+            <strong>Sandy Schwengeler</strong><br>
+            </p>
             <a href="mailto:praxis@beruehrtimsein.ch">praxis@beruehrtimsein.ch</a>
             <a href="tel:+41774782636">+41 77 478 26 36</a>
           </div>
@@ -203,7 +210,7 @@ const craniosacralConditions = [
   '<strong>Kopfschmerzen &amp; Migräne</strong>',
   '<strong>Kiefergelenksbeschwerden &amp; Zähneknirschen</strong>',
   '<strong>Tinnitus</strong>',
-  '<strong>Beschwerden nach Unfällen</strong>, Operationen &amp; Schleudertrauma',
+  '<strong>Beschwerden nach Unfällen, Operationen &amp; Schleudertrauma</strong>',
   '<strong>Stress, Erschöpfung &amp; Burnout</strong>',
   '<strong>Schlafstörungen &amp; Müdigkeit</strong>',
   '<strong>Traumatische Erfahrungen</strong>',
@@ -212,10 +219,9 @@ const craniosacralConditions = [
 const einreibungenConditions = [
   '<strong>Muskelverspannungen</strong>',
   '<strong>Körperliche und seelische Anspannung</strong>',
-  '<strong>Innere Unruhe &amp; Ängste</strong>',
   '<strong>Unregelmässiger Schlaf-Wach-Rhythmus</strong>',
   '<strong>Erschöpfung &amp; Antriebslosigkeit</strong>',
-  '<strong>Belastende Lebensereignisse</strong>',
+  '<strong>Belastende Lebensereignisse, Innere Unruhe &amp; Ängste</strong>',
   '<strong>Chronische Schmerzen &amp; rheumatische Beschwerden</strong>',
   '<strong>Polyneuropathie</strong>',
   '<strong>Wärmebalance &amp; Entspannung</strong>',
