@@ -166,7 +166,7 @@
         src="/session.png"
         alt="Praxis"
         loading="eager"
-        style="object-position: center 60%;"
+        style="object-position: center 80%;"
       />
     </div>
 
