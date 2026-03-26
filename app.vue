@@ -27,7 +27,7 @@
           Biodynamische Craniosacral Therapie &amp;<br>
           Rhythmische Einreibungen
         </p>
-        <a href="#craniosacral" class="hero__cta">Mehr erfahren</a>
+        <a href="#craniosacral" class="btn-outline">Mehr erfahren</a>
       </div>
     </section>
 
@@ -136,16 +136,6 @@
       </div>
     </section>
 
-    <!-- Full-width divider image Einreibungen -->
-    <div class="full-img-wrap">
-      <img
-        src="/oils.png"
-        alt="Rhythmische Einreibungen"
-        loading="eager"
-        style="object-position: center 60%;"
-      />
-    </div>
-
     <!-- Conditions Einreibungen -->
     <section class="conditions-section conditions-section--alt">
       <div class="section-inner">
@@ -160,28 +150,45 @@
       </div>
     </section>
 
-    <!-- Portrait + offer -->
+    <!-- Full-width divider image Einreibungen -->
     <div class="full-img-wrap">
       <img
-        src="/session.png"
-        alt="Praxis"
+        src="/oils.png"
+        alt="Rhythmische Einreibungen"
         loading="eager"
-        style="object-position: center 80%;"
+        style="object-position: center 60%;"
       />
     </div>
 
-    <!-- Offer band -->
-    <div class="offer-band">
-      <div class="offer-band__inner reveal">
-        <h3>Für ein persönliches Gespräch bin ich gerne für Sie da.</h3>
-        <p>
-          <strong>Behandlungen erfolgen nach individueller Terminvereinbarung.</strong><br>
-          Im Rahmen meiner fortgeschrittenen Ausbildung zur Craniosacraltherapeutin biete ich die Craniosacraltherapie
-          derzeit zu einem reduzierten Einführungstarif an.
-        </p>
-        <a href="mailto:praxis@beruehrtimsein.ch" class="btn-outline">Termin anfragen</a>
+    <!-- Portrait + offer -->
+    <section class="service offer-band">
+      <div class="section-inner">
+        <div class="service__grid service__grid--wide-img">
+          <div class="service__img-wrap reveal">
+            <img
+              class="service__img"
+              src="/session.png"
+              alt="Praxis"
+              loading="eager" 
+            />
+          </div>
+          <div class="reveal reveal-delay-2">
+            <h2 class="service__heading">
+              Für ein persönliches <em>Gespräch</em>
+              bin ich gerne für Sie da.
+            </h2>
+            <p class="service__body">
+              <strong>Behandlungen erfolgen nach individueller Terminvereinbarung.</strong>
+            </p>
+            <p class="service__body">
+              Im Rahmen meiner fortgeschrittenen Ausbildung zur Craniosacraltherapeutin biete ich die Craniosacraltherapie
+              derzeit zu einem reduzierten Einführungstarif an.
+            </p>
+            <a href="mailto:praxis@beruehrtimsein.ch" class="btn-outline">Termin anfragen</a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!-- Contact / Footer -->
     <section id="kontakt" class="contact">
@@ -202,8 +209,8 @@
             <p>
             <strong>Sandy Schwengeler</strong><br>
             </p>
-            <a href="mailto:praxis@beruehrtimsein.ch">praxis@beruehrtimsein.ch</a>
-            <a href="tel:+41774782636">+41 77 478 26 36</a>
+            <a style="text-decoration: underline;" href="mailto:praxis@beruehrtimsein.ch">praxis@beruehrtimsein.ch</a>
+            <a style="text-decoration: underline;" href="tel:+41774782636">+41 77 478 26 36</a>
           </div>
         </div>
       </div>

@@ -1,3 +1,13 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Add these: */
+body {
+  -ms-overflow-style: none;  /* IE / Edge legacy */
+  scrollbar-width: none;     /* Firefox */
+}
+
 :root {
   --cream: #f7f3ee;
   --warm-white: #fdfaf6;
@@ -19,6 +29,7 @@
 html { scroll-behavior: smooth; }
 
 body {
+
   background-color: var(--warm-white);
   color: var(--stone);
   font-family: var(--font-body);
@@ -191,6 +202,9 @@ section { position: relative; }
 .service__grid--reverse { direction: rtl; }
 .service__grid--reverse > * { direction: ltr; }
 
+.service__grid--wide-img .service__img {
+  aspect-ratio: 4/3;
+}
 .service__img-wrap {
   position: relative;
   overflow: hidden;
