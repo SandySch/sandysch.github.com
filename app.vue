@@ -191,8 +191,8 @@
             <h4>Adresse</h4>
             <p>
               <strong>Praxis Berührt im Sein</strong><br>
-              <a href="https://maps.google.com/?q=Muchlingerstrasse+38,+8405+Winterthur" target="_blank" rel="noopener noreferrer">
-                Muchlingerstrasse 38<br>8405 Winterthur
+              <a href="https://maps.google.com/?q=Mulchlingerstrasse+38,+8405+Winterthur" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">
+                Mulchlingerstrasse 38<br>8405 Winterthur
               </a>
               Parkplatz direkt vor dem Haus vorhanden.
             </p>
