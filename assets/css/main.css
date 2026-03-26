@@ -38,6 +38,22 @@ body {
   font-size: 16px;
   overflow-x: hidden;
 }
+/* ─── Logo ─── */
+.nav__logo-img {
+  height: 38px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  /* white bg blends with the nav's warm-white */
+}
+
+.hero__logo {
+  display: block;
+  width: clamp(110px, 12vw, 160px);
+  margin: 0 auto 1.2rem;
+  mix-blend-mode: multiply;   /* dissolves the white bg into the hero image */
+  opacity: 0.88;
+}
 
 /* ─── Nav ─── */
 .nav {

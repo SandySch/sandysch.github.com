@@ -2,7 +2,10 @@
   <div>
     <!-- Navigation -->
     <nav class="nav">
-      <a href="#" class="nav__logo">Berührt <span>im Sein</span></a>
+      <a href="#" class="nav__logo">
+        <img src="/logo.png" alt="" class="nav__logo-img" aria-hidden="true" />
+        Berührt <span>im Sein</span>
+      </a>
       <ul class="nav__links">
         <li><a href="#craniosacral">Craniosacral</a></li>
         <li><a href="#einreibungen">Einreibungen</a></li>
@@ -21,6 +24,7 @@
       />
       <div class="hero__overlay" />
       <div class="hero__content">
+        <img src="/logo.png" alt="" class="hero__logo" aria-hidden="true" />
         <p class="hero__eyebrow">Praxis für ganzheitliche Therapie · Winterthur</p>
         <h1 class="hero__title">Berührt im Sein</h1>
         <p class="hero__subtitle">
@@ -97,7 +101,7 @@
         alt="Stille und Balance"
         loading="eager"
       />
-      <span class="full-img-wrap__caption">Raum für Ruhe und innere Balance</span>
+      <span class="full-img-wrap__caption">Biodynamische Craniosacral Therapie</span>
     </div>
 
     <!-- Einreibungen Service -->
@@ -158,6 +162,7 @@
         loading="eager"
         style="object-position: center 60%;"
       />
+      <span class="full-img-wrap__caption">Rhythmische Einreibungen</span>
     </div>
 
     <!-- Portrait + offer -->
