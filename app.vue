@@ -136,6 +136,16 @@
       </div>
     </section>
 
+    <!-- Full-width divider image Einreibungen -->
+    <div class="full-img-wrap">
+      <img
+        src="/oils.png"
+        alt="Rhythmische Einreibungen"
+        loading="eager"
+        style="object-position: center 60%;"
+      />
+    </div>
+
     <!-- Conditions Einreibungen -->
     <section class="conditions-section conditions-section--alt">
       <div class="section-inner">
