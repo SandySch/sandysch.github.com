@@ -211,8 +211,74 @@
 
     <footer class="footer">
       © {{ new Date().getFullYear() }} Praxis <span>Berührt im Sein</span> · Winterthur
+      <div class="footer__links">
+        <a href="#" @click.prevent="openModal('impressum')">Impressum</a>
+        <span>·</span>
+        <a href="#" @click.prevent="openModal('datenschutz')">Datenschutz</a>
+      </div>
     </footer>
   </div>
+
+  <!-- Modals -->
+<Teleport to="body">
+  <div v-if="activeModal" class="modal-backdrop" @click.self="closeModal">
+    <div class="modal">
+      <button class="modal__close" @click="closeModal">&#x2715;</button>
+
+      <!-- Impressum -->
+      <div v-if="activeModal === 'impressum'">
+        <h2 class="modal__title">Impressum</h2>
+        <p>
+          <strong>Praxis Berührt im Sein</strong><br>
+          Sandy Schwengeler<br>
+          Muchlingerstrasse 38<br>
+          8405 Winterthur<br>
+          Schweiz
+        </p>
+        <p>
+          Telefon: <a href="tel:+41774782636">+41 77 478 26 36</a><br>
+          E-Mail: <a href="mailto:praxis@beruehrtimsein.ch">praxis@beruehrtimsein.ch</a>
+        </p>
+      </div>
+
+      <!-- Datenschutz -->
+      <div v-if="activeModal === 'datenschutz'">
+        <h2 class="modal__title">Datenschutz</h2>
+        <p>
+          Der Schutz Ihrer persönlichen Daten ist mir ein wichtiges Anliegen.
+          Personenbezogene Daten werden auf dieser Webseite nur im notwendigen Umfang verarbeitet.
+        </p>
+        <p>
+          Wenn Sie mich per Telefon oder E-Mail kontaktieren, werden Ihre Angaben ausschliesslich
+          zur Bearbeitung Ihrer Anfrage verwendet und vertraulich behandelt.
+        </p>
+        <p>
+          Diese Webseite kann externe Dienste wie Google Maps zur Darstellung von Karten verwenden.
+          Dabei können Daten an den jeweiligen Anbieter übermittelt werden.
+        </p>
+        <p>
+          Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten Daten sowie auf
+          Berichtigung oder Löschung dieser Daten.
+        </p>
+        <p>
+          Bei Fragen zum Datenschutz können Sie mich kontaktieren:<br>
+          Sandy Schwengeler · Praxis Berührt im Sein<br>
+          Muchlingerstrasse 38 · 8405 Winterthur<br>
+          <a href="mailto:praxis@beruehrtimsein.ch">praxis@beruehrtimsein.ch</a>
+        </p>
+        <h3 class="modal__subtitle">Haftungshinweis</h3>
+        <p>
+          Die Inhalte dieser Webseite wurden mit Sorgfalt erstellt. Für die Richtigkeit,
+          Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
+        </p>
+        <p>
+          Diese Webseite kann Links zu externen Webseiten enthalten. Für die Inhalte dieser
+          externen Seiten sind ausschliesslich deren Betreiber verantwortlich.
+        </p>
+      </div>
+    </div>
+  </div>
+</Teleport>
 </template>
 
 <script setup>
@@ -251,4 +317,14 @@ onMounted(() => {
   )
   document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
 })
+
+const activeModal = ref(null)
+const openModal = (name) => {
+  activeModal.value = name
+  document.body.style.overflow = 'hidden'
+}
+const closeModal = () => {
+  activeModal.value = null
+  document.body.style.overflow = ''
+}
 </script>
