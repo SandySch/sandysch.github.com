@@ -14,7 +14,7 @@
     <section class="hero">
       <img
         class="hero__img"
-        src="https://beruehrtimsein.wordpress.com/wp-content/uploads/2026/03/p1.png"
+        src="/background.png"
         alt="Praxis Berührt im Sein"
         loading="eager"
         height="100%"
@@ -22,7 +22,7 @@
       <div class="hero__overlay" />
       <div class="hero__content">
         <p class="hero__eyebrow">Praxis für ganzheitliche Therapie · Winterthur</p>
-        <h1 class="hero__title">Berührt<br>im Sein</h1>
+        <h1 class="hero__title">Berührt im Sein</h1>
         <p class="hero__subtitle">
           Biodynamische Craniosacral Therapie &amp;<br>
           Rhythmische Einreibungen
@@ -47,9 +47,9 @@
           <div class="service__img-wrap reveal">
             <img
               class="service__img"
-              src="https://beruehrtimsein.wordpress.com/wp-content/uploads/2026/03/2r4a6947.jpg"
+              src="/service.png"
               alt="Biodynamische Craniosacral Therapie"
-              loading="lazy"
+              loading="eager"
             />
           </div>
           <div class="reveal reveal-delay-2">
@@ -92,9 +92,9 @@
     <!-- Full-width divider image -->
     <div class="full-img-wrap">
       <img
-        src="https://beruehrtimsein.wordpress.com/wp-content/uploads/2026/03/2r4a6957.jpg"
+        src="/session.png"
         alt="Stille und Balance"
-        loading="lazy"
+        loading="eager"
       />
       <span class="full-img-wrap__caption">Raum für Ruhe und innere Balance</span>
     </div>
@@ -106,9 +106,9 @@
           <div class="service__img-wrap reveal">
             <img
               class="service__img"
-              src="https://beruehrtimsein.wordpress.com/wp-content/uploads/2026/03/2r4a7029-1.jpg"
+              src="/service-2.png"
               alt="Rhythmische Einreibungen"
-              loading="lazy"
+              loading="eager"
             />
           </div>
           <div class="reveal reveal-delay-2">
@@ -150,9 +150,9 @@
     <!-- Portrait + offer -->
     <div class="full-img-wrap" style="height: clamp(260px,36vw,420px)">
       <img
-        src="https://beruehrtimsein.wordpress.com/wp-content/uploads/2026/03/2r4a7006-2.jpg"
+        src="/portrait.png"
         alt="Praxis"
-        loading="lazy"
+        loading="eager"
         style="object-position: center 20%;"
       />
     </div>
