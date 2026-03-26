@@ -116,7 +116,8 @@
             <span class="service__tag">Therapie II</span>
             <h2 class="service__heading">
               Rhythmische<br>
-              <em>Einreibungen</em>
+              <em>Einreibungen</em><br>
+              <span style="font-size: 0.6em; font-style: normal; color: var(--stone-light); letter-spacing: 0.08em;">nach Wegman/Hauschka</span>
             </h2>
             <div class="divider"><div class="divider__icon" /></div>
             <p class="service__body">
