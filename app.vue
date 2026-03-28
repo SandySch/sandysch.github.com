@@ -17,7 +17,7 @@
     <section class="hero">
       <img
         class="hero__img"
-        src="/background.png"
+        src="/bg.jpg"
         alt="Praxis Berührt im Sein"
         loading="eager"
         height="100%"
@@ -25,7 +25,7 @@
       <div class="hero__overlay" />
       <div class="hero__content">
         <img src="/logo.png" alt="" class="hero__logo" aria-hidden="true" />
-        <p class="hero__eyebrow">Praxis für ganzheitliche Therapie · Winterthur</p>
+        <p class="hero__eyebrow">Praxis für ganzheitliche Körpertherapie · Winterthur</p>
         <h1 class="hero__title">Berührt im Sein</h1>
         <p class="hero__subtitle">
           Biodynamische Craniosacral Therapie &amp;<br>
@@ -69,7 +69,8 @@
             </p>
             <p class="service__body">
               Feine Berührungen lassen einen stillen Raum entstehen, in dem sich die Selbstregulation
-              des Organismus entfalten kann. Dabei können die innewohnenden Kräfte wirksam werden und zu 
+              des Organismus entfalten kann. In dieser Ruhe kann der craniosacrale Rhythmus wieder 
+              in seine natürliche Harmonie finden. Dabei können die innewohnenden Kräfte wirksam werden und zu 
               nachhaltiger Gesundheit, innerer Stabilität und Ruhe beitragen. 
               Auf diese Weise kann der Organismus in seine natürliche Balance zurückfinden.
               Das begleitende Gespräch stärkt die Selbstwahrnehmung, unterstützt den Zugang zu 
@@ -127,7 +128,7 @@
             <p class="service__body">
               Rhythmisch gestaltete Berührungen mit hochwertigen, ausgewählten Pflanzenölen wirken
               harmonisierend auf die ordnenden Kräfte im Menschen. Die atmenden, rhythmischen
-              Bewegungen unterstützen den Körper in seiner Selbstregulation und ermöglichen, dass die aufbauenden Kräfte wirksam werden.
+              Bewegungen der Einreibung unterstützen den Körper in seiner Selbstregulation und ermöglichen, dass die aufbauenden Kräfte wirksam werden.
               Dabei kann der Organismus zu Wärme, Vitalität und innerem Gleichgewicht finden.
             </p>
             <p class="service__body">
@@ -307,10 +308,10 @@ const craniosacralConditions = [
 
 const einreibungenConditions = [
   '<strong>Muskelverspannungen</strong>',
-  '<strong>Körperlichen und seelischen Anspannungen</strong>',
+  '<strong>Körperlicher und seelischer Anspannung</strong>',
   '<strong>Unregelmässigem Schlaf-Wach-Rhythmus</strong>',
   '<strong>Erschöpfung &amp; Antriebslosigkeit</strong>',
-  '<strong>Belastenden Lebensereignissen &amp; innerer Unruhe &amp; Ängste</strong>',
+  '<strong>Belastenden Lebensereignissen &amp; innerer Unruhe &amp; Ängsten</strong>',
   '<strong>Chronischen Schmerzen &amp; rheumatischen Beschwerden</strong>',
   '<strong>Polyneuropathie</strong>',
   '<strong>Wärmebalance &amp; Entspannung</strong>',
