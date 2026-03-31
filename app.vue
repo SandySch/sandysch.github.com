@@ -1,5 +1,21 @@
 <template>
   <div>
+    <!-- Info Banner -->
+<Transition name="banner">
+  <div v-if="showBanner" class="info-banner">
+    <p class="info-banner__text">
+      Diese Website wird in Kürze erweitert. 
+      Für persönliche Fragen oder einen ersten Kontakt freue ich mich über Ihre Nachricht —
+      <a href="mailto:praxis@beruehrtimsein.ch">praxis@beruehrtimsein.ch</a>
+    </p>
+    <button class="info-banner__close" @click="dismissBanner" aria-label="Schließen">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <line x1="1" y1="1" x2="13" y2="13"/>
+        <line x1="13" y1="1" x2="1" y2="13"/>
+      </svg>
+    </button>
+  </div>
+</Transition>
     <!-- Navigation -->
     <nav class="nav">
       <a href="#" class="nav__logo">
@@ -295,6 +311,16 @@
 </template>
 
 <script setup>
+const BANNER_KEY = 'bis_info_banner_dismissed'
+const showBanner = ref(
+  typeof sessionStorage !== 'undefined'
+    ? sessionStorage.getItem(BANNER_KEY) !== 'true'
+    : false
+)
+const dismissBanner = () => {
+  showBanner.value = false
+  sessionStorage.setItem(BANNER_KEY, 'true')
+}
 const craniosacralConditions = [
   '<strong>Rücken-, Nacken- &amp; Schulterbeschwerden</strong>',
   '<strong>Kopfschmerzen &amp; Migräne</strong>',
