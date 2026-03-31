@@ -173,7 +173,7 @@
           <div class="service__img-wrap reveal">
             <img
               class="service__img"
-              src="/session.png"
+              src="/session.webp"
               alt="Praxis"
               loading="eager" 
             />
