@@ -54,7 +54,7 @@
     <!-- Intro band -->
     <div class="intro-band">
       <p>
-        In meiner Praxis <strong>Berührt im Sein</strong> begleite ich Menschen in körperlichen und seelischen Belastungssituationen. Die achtsame therapeutische Begleitung lädt dazu ein, Festgehaltenes zu lösen, Raum für natürliche Balance zu entfalten und den Zugang zu den inneren Kräften zu vertiefen, um ganzheitliche Stabilität nachhaltig zu festigen.
+        In meiner Praxis <strong class="intro-band__highlight">Berührt im Sein</strong> begleite ich Menschen in körperlichen und seelischen Belastungssituationen. Die achtsame therapeutische Begleitung lädt dazu ein, Festgehaltenes zu lösen, Raum für natürliche Balance zu entfalten und den Zugang zu den inneren Kräften zu vertiefen, um ganzheitliche Stabilität nachhaltig zu festigen.
       </p>
     </div>
 
@@ -311,16 +311,12 @@
 </template>
 
 <script setup>
-const BANNER_KEY = 'bis_info_banner_dismissed'
-const showBanner = ref(
-  typeof sessionStorage !== 'undefined'
-    ? sessionStorage.getItem(BANNER_KEY) !== 'true'
-    : false
-)
+const showBanner = ref(false)
+
 const dismissBanner = () => {
   showBanner.value = false
-  sessionStorage.setItem(BANNER_KEY, 'true')
 }
+
 const craniosacralConditions = [
   '<strong>Rücken-, Nacken- &amp; Schulterbeschwerden</strong>',
   '<strong>Kopfschmerzen &amp; Migräne</strong>',
@@ -344,7 +340,23 @@ const einreibungenConditions = [
 ]
 
 onMounted(() => {
-  const observer = new IntersectionObserver(
+  const heroSection = document.querySelector('.hero')
+  if (heroSection) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            showBanner.value = true
+            observer.unobserve(heroSection)
+          }
+        })
+      },
+      { threshold: 0 }
+    )
+    observer.observe(heroSection)
+  }
+
+  const revealObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -354,7 +366,7 @@ onMounted(() => {
     },
     { threshold: 0.12 }
   )
-  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
+  document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el))
 })
 
 const activeModal = ref(null)

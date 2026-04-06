@@ -178,8 +178,8 @@ body {
 
 /* ─── Intro Band ─── */
 .intro-band {
-  background: #b8c4b5;
-  color: var(--stone);
+  background: var(--sage-dark);
+  color: var(--cream);
   text-align: center;
   padding: 4.5rem 2rem;
   border-top: 1px solid rgba(92, 120, 97, 0.2);
@@ -192,11 +192,10 @@ body {
   line-height: 1.7;
   max-width: 760px;
   margin: 0 auto;
-  color: var(--stone);
 }
-.intro-band strong {
+.intro-band__highlight {
+  color: var(--accent);
   font-weight: 500;
-  color: var(--sage-dark);
 }
 /* ─── Section base ─── */
 section { position: relative; }
